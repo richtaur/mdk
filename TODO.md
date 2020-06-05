@@ -2,32 +2,33 @@
 
 - make `mdk` binary
 - design the usage, e.g. `mdk audio something -something something`
-- add/reset audio assets to Mutant
 
 ## Audio
 
 + compression
-	- wrap into a command
+	- `mdk audio compress *.m4a`
 + normalization
-	- wrap into a command
+	- `mdk audio normalize file.wav`
 
 ## Images
 
+- resize
+	`mdk image resize *.png --size 200x200`
+	`mdk image resize hello.gif -s 50%x50%`
 + sheet padding
 	- wrap into a command
-- resize
-	- wrap into a command
-- crop
-	- wrap into a command
+	`mdk image pad ... TBD`
+- crop?
+	`mdk image crop *.png --size 200x200 --position 50,50`
+	`mdk image crop hello.gif -s 200x200 -p 50,50`
 
 ## Video
 
 + compression
-	- wrap into a command
-+ audio normalization
-	- wrap into a command
+	- `mdk video compress *.mov`
 - convert video to gif
-- resize
+	- `mdk video convert-to-gif input.mp4 --output output.gif`
+- resize / crop
 
 ## Audio Normalization
 
