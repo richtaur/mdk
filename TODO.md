@@ -2,35 +2,32 @@
 
 - make `mdk` binary
 - design the usage, e.g. `mdk audio something -something something`
+- add/reset audio assets to Mutant
 
 ## Audio
 
-- compression
-- normalization
-- organization
-	- audit locations
-		- ~/dev/kit/audio
-		- ~/Desktop/TODO/assets/
-		- humble store
-	- assets searching via Mutant
++ compression
+	- wrap into a command
++ normalization
+	- wrap into a command
 
 ## Images
 
++ sheet padding
+	- wrap into a command
 - resize
+	- wrap into a command
 - crop
-- convert gif to video
-- sheet padding
-- assets organization
-	- audit locations
-		- ~/dev/kit/sprites
-		- ~/Desktop/TODO/assets/
-		- humble store
+	- wrap into a command
 
 ## Video
 
-- compression
++ compression
+	- wrap into a command
 + audio normalization
+	- wrap into a command
 - convert video to gif
+- resize
 
 ## Audio Normalization
 
