@@ -1,11 +1,12 @@
 # TODO
 
-- design the usage, e.g. `mdk audio something -something something`
++ design the usage, e.g. `mdk audio something -something something`
 
 ## Audio
 
 + compression
-	- `mdk audio compress *.m4a`
+	+ `mdk audio compress *.m4a`
+	- log total size before / after (and savings)
 + normalization
 	- `mdk audio normalize file.wav`
 
@@ -14,9 +15,6 @@
 - resize
 	`mdk image resize *.png --size 200x200`
 	`mdk image resize hello.gif -s 50%x50%`
-+ sheet padding
-	- wrap into a command
-	`mdk image pad ... TBD`
 - crop?
 	`mdk image crop *.png --size 200x200 --position 50,50`
 	`mdk image crop hello.gif -s 200x200 -p 50,50`
