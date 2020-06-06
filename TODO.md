@@ -4,9 +4,6 @@
 
 ## Audio
 
-+ compression
-	+ `mdk audio compress *.m4a`
-	- log total size before / after (and savings)
 + normalization
 	- `mdk audio normalize file.wav`
 
