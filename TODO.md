@@ -1,6 +1,5 @@
 # TODO
 
-- make `mdk` binary
 - design the usage, e.g. `mdk audio something -something something`
 
 ## Audio
