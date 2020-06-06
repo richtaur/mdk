@@ -2,11 +2,6 @@
 
 + design the usage, e.g. `mdk audio something -something something`
 
-## Audio
-
-+ normalization
-	- `mdk audio normalize file.wav`
-
 ## Images
 
 - resize
