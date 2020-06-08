@@ -13,6 +13,5 @@
 
 + compression
 	- `mdk video compress *.mov`
-- convert video to gif
-	- `mdk video convert-to-gif input.mp4 --output output.gif`
+	- `ffmpeg -crf 20`
 - resize / crop
