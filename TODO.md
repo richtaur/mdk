@@ -11,7 +11,4 @@
 
 ## Video
 
-+ compression
-	- `mdk video compress *.mov`
-	- `ffmpeg -crf 20`
 - resize / crop
