@@ -8,4 +8,4 @@ Probably just `yarn` should do it.
 
 ## How to use
 
-TODO
+Run `mdk` to show the help prompt.
