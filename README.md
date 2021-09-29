@@ -4,7 +4,9 @@ This project houses (some of) the CLI tools I use to make software, especially v
 
 ## How to install
 
-Probably just `yarn` should do it.
+Run `yarn`.
+Run `yarn global add <path to mdk>`
+For example: `yarn global add ~/dev/personal/mdk`
 
 ## How to use
 
