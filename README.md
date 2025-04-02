@@ -22,8 +22,9 @@ Some of **mdk**'s many features:
 1. Install [Yarn][yarn]
 1. Open a terminal
 1. In the `mdk` directory, run `yarn`
-1. To make `mdk` globally available on your computer, run `yarn global add`
-1. To upgrade `mdk`, run `yarn global upgrade`
+1. To make `mdk` globally available on your computer, run `yarn global add <path_to_mdk>`
+	* e.g. `yarn global add ~/dev/personal/mdk`
+1. To upgrade `mdk`, run `yarn global upgrade <path_to_mdk>`
 
 ## Windows installation notes
 
