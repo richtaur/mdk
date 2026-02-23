@@ -20,6 +20,7 @@ Some of **mdk**'s many features:
 
 1. Install [Node][node]
 1. Install [Yarn][yarn]
+1. Install [FFmpeg][ffmpeg]
 1. Open a terminal
 1. In the `mdk` directory, run `yarn`
 1. To make `mdk` globally available on your computer, run `yarn global add <path_to_mdk>`
@@ -57,8 +58,52 @@ From a terminal, run `mdk` to show the help prompt. It should look something lik
 > MDK exiting
 ```
 
-[richtaur]: https://bsky.app/profile/richtaur.bsky.social
+## Audio commands
+
+Run `mdk audio` to get a list of the audio commands.
+
+### Compress audio file(s)
+
+`mdk audio compress $path`
+
+For example, to compress all mp3 files in a folder:
+
+`mdk audio compress *.mp3`
+
+### Convert audio file(s)
+
+`mdk audio convert $format $path`
+
+For example, to convert all wav files in a folder to mp3:
+
+`mdk audio convert mp3 *.wav`
+
+### Normalize audio file(s)
+
+`mdk audio normalize $path`
+
+For example, to [normalize][normalize] all mp3 files in a folder:
+
+`mdk audio normalize *.mp3`
+
+## Adjust the volume on audio file(s)
+
+`mdk audio volume $volume $path`
+
+For example, to halve the volume of all mp3 files in a folder:
+
+`mdk audio volume 0.5 *.mp3`
+
+Or to increase the volume of all wav files in a folder by 5dB:
+
+`mdk audio volume 5dB *.wav`
+
+See [FFmpeg's Audio Volume Manipulation][volume] page for more information.
+
+[richtaur]: https://www.richtaur.com/
 [htmavgaby]: https://www.valadria.com/how-to-make-a-video-game-all-by-yourself/
 [valadria]: https://www.valadria.com/
 [node]: https://nodejs.org/en
 [yarn]: https://yarnpkg.com/
+[normalize]: https://en.wikipedia.org/wiki/Audio_normalization
+[volume]: https://trac.ffmpeg.org/wiki/AudioVolume
