@@ -2,8 +2,11 @@
 
 - complete all help commands
 	- audit for missing/incomplete commands
-- audit the argument orders
+	- audit the argument orders
 - clean up / polish help output
+- add working examples with public domain assets included
+
+- image compress: redo using convert
 
 - image -- support pixel-perfect resizing
 	- ffmpeg -i input_file.png -s 64x64 -sws_flags neighbor output_file.png
