@@ -7,10 +7,6 @@
 
 ## New Features
 
-+ resize-pixels
-	- image/video: add new resize-pixels command (pixel perfect resizing)
-	- ffmpeg -i input_file.png -s 64x64 -sws_flags neighbor output_file.png
-
 - compress
 	- add quality level?
 	- only overwrite if savings found
