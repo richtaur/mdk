@@ -1,5 +1,6 @@
 # TODO
 
+- audit all help commands
 - use packaged ffmpeg
 - use packaged mogrify
 - clean up / polish help output
