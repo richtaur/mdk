@@ -1,19 +1,20 @@
 # TODO
 
 - use packaged ffmpeg
+- use packaged mogrify
 - clean up / polish help output
 - add working examples with public domain assets included
 
 ## New Features
 
++ resize-pixels
+	- image/video: add new resize-pixels command (pixel perfect resizing)
+	- ffmpeg -i input_file.png -s 64x64 -sws_flags neighbor output_file.png
+
 - compress
 	- add quality level?
 	- only overwrite if savings found
 	- mdk image compress: redo using convert
-
-- resize-pixels
-	- image/video: add new resize-pixels command (pixel perfect resizing)
-	- ffmpeg -i input_file.png -s 64x64 -sws_flags neighbor output_file.png
 
 - mdk video info
 	- ffprobe -show_entries stream=width,height -i example.mp4
