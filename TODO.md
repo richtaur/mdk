@@ -3,7 +3,6 @@
 - use packaged ffmpeg
 - clean up / polish help output
 - add working examples with public domain assets included
-- get version from package.json
 
 ## New Features
 
