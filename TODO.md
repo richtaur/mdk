@@ -8,6 +8,10 @@
 
 ## New Features
 
+- image/video scale
+	- make image scale 2 *.png
+	- make image scale-pixels 2 *.png
+
 - compress
 	- add quality level?
 	- only overwrite if savings found
