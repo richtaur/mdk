@@ -105,5 +105,6 @@ See [FFmpeg's Audio Volume Manipulation][volume] page for more information.
 [valadria]: https://www.valadria.com/
 [node]: https://nodejs.org/en
 [yarn]: https://yarnpkg.com/
+[ffmpeg]: https://www.ffmpeg.org/
 [normalize]: https://en.wikipedia.org/wiki/Audio_normalization
 [volume]: https://trac.ffmpeg.org/wiki/AudioVolume
