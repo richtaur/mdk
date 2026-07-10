@@ -1,5 +1,6 @@
 # TODO
 
+- add ability to resize a folder of images based on %
 - use packaged ffmpeg
 - use packaged mogrify
 - clean up / polish help output
